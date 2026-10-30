@@ -1,0 +1,14 @@
+# ビルドの途中生成物と出力（make で作り直せる）
+.build/
+build/
+dist/
+
+# macOS と エディタが自動で作るファイル
+.DS_Store
+.vscode/
+.swiftpm/
+*.xcuserstate
+xcuserdata/
+
+# 個人用の仕様メモ（公開しない）
+SPEC.md

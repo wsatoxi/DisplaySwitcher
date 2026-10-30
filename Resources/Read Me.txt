@@ -1,0 +1,60 @@
+Display Switcher
+================
+
+Press a shortcut to open a "Display Mode" panel at the top right of the screen,
+then switch between display modes (Extend / <display> Only / Mirror).
+It works much like Win+P on Windows.
+
+Requires macOS 14 or later (Apple silicon / Intel).
+
+
+■ Install
+
+1. Drag "Display Switcher" onto "Applications" on the right.
+2. Open Display Switcher from the Applications folder.
+
+The first time you open it, macOS says it "cannot be opened" or that
+"Apple could not verify" it. This is because the app is not notarized by Apple.
+Open it like this:
+
+  1. Click "Done" in the dialog
+  2. Open System Settings › Privacy & Security
+  3. Near the bottom, next to "“Display Switcher” was blocked to protect your Mac",
+     click "Open Anyway" and allow it with your password (or Touch ID)
+  4. Open Display Switcher again and click "Open Anyway"
+
+Once it is running, an icon with two displays appears in the menu bar.
+It also starts automatically when you log in (you can turn this off in its menu).
+
+
+■ How to use
+
+  Press and release ⌃⌘P (Control + Command + P)
+      → The Display Mode panel opens (and stays open)
+  While the panel is open, press ⌃⌘P or ↑↓
+      → Move the selection
+  Return or click
+      → Switch to that mode
+  Hold ⌃⌘, press P two or more times, then release
+      → Switches to the selected mode when you let go (like ⌘Tab)
+  Esc, click outside the panel, or wait 10 seconds
+      → Close without changing anything
+
+To change the shortcut, choose "Change Shortcut (⌃⌘P)…" from the menu bar icon.
+
+
+■ If a screen goes dark
+
+  1. Press ⌃⌥⌘P (Control + Option + Command + P)
+     → All displays are shown again (Extend)
+  2. If that does not help, log out or restart
+
+The first time you use a mode, a "Keep?" panel appears. If you don't click "Keep"
+within 15 seconds, the previous display setup comes back automatically.
+
+
+■ Uninstall
+
+  1. Menu bar icon › turn off "Open at Login"
+  2. Menu bar icon › "Quit Display Switcher"
+  3. Move Display Switcher from the Applications folder to the Trash
