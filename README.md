@@ -27,6 +27,14 @@ Press **⌃⌘P** and a panel appears at the top right of the screen. Pick a mod
 
 ## Installation
 
+### Homebrew
+
+```bash
+brew install wsatoxi/tap/display-switcher
+```
+
+### Manual
+
 1. Download `DisplaySwitcher-<version>.dmg` from [Releases](../../releases/latest).
 2. Open the DMG and drag **Display Switcher** onto **Applications**.
 3. Open Display Switcher from the Applications folder. "Open at Login" is turned on the first time it runs.

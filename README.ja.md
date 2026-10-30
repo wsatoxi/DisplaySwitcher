@@ -27,6 +27,14 @@
 
 ## インストール
 
+### Homebrew
+
+```bash
+brew install wsatoxi/tap/display-switcher
+```
+
+### 手動
+
 1. [Releases](../../releases/latest) から `DisplaySwitcher-<バージョン>.dmg` をダウンロードします。
 2. DMG を開き、`Display Switcher` を右の `Applications` にドラッグします。
 3. 「アプリケーション」から開きます。初回起動時に「ログイン時に起動」が ON になります。
